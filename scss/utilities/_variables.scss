@@ -1,0 +1,53 @@
+// colors
+
+$color-primary: #58e1c1;
+$color-text: #777;
+$color-hover: #0000cc;
+$color-body: #dafffd;
+$color-detail: #51ddfc;
+$color-white: #fff;
+
+$complement:  complement($color-primary);
+$complement-light: lighten($complement, 25%);
+
+// button colors
+
+$color-default: #51ddfc;
+$color-success: #63cc82;
+$color-error: #e4757a;
+$color-warning: #fd7856;
+$color-info: #927bc1;
+
+
+
+// color functions
+
+$color-primary-dark: darken($color-primary, 15%);
+$color-primary-light: lighten($color-primary, 25%);
+
+$color-default-light: lighten($color-default, 15%);
+$color-success-light: lighten($color-success, 15%); 
+$color-error-light: lighten($color-error, 15%);
+$color-warning-light: lighten($color-warning, 15%);
+$color-info-light: lighten($color-info, 15%);
+
+
+
+// font weight
+
+$weight-normal: 300;
+$weight-bold: 700;
+
+// Breakpoints
+
+$break-m: 768px; 
+
+// font stacks
+
+$stack-sans-serif : Lato, Arial, sans-serif;
+$stack-helvetica : 'Helvetica Neue', $stack-sans-serif;
+$stack-abolition : 'Abolition Regular', $stack-sans-serif;
+
+// Border radius
+
+$br: 5px;
